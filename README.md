@@ -1,9 +1,11 @@
-# Project-3-boilerplage
+# Best Reads
 
 ## Structure
 
-This repository contains 2 folders, a client folder with a react app developed with functional components and functional auth (signup, login, logut), as well as the views for these forms and a protected page with user specific data.
-The server folder contains a NodeJS and Express App to run the application. It contains the Auth Routes, database configurations, middleware setup and cors already prepared
+This is a full-stack application, containing a server and client side. The former is built with Node.js and Express app to run the application, the latter with React.js.
+
+The server contains auth routes, database configurations, middleware and cors in addition to models, public and private routes. The client folder contains functional authentication, components and images.
+
 
 ## Steps to install and Deploy this repository
 
