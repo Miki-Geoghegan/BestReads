@@ -14,7 +14,7 @@ This project is created with [Create React App](https://github.com/facebook/crea
 **Mobile view**
 <p float="left">
 
-  ![image](https://user-images.githubusercontent.com/83708369/137088524-5ffd656f-97eb-4bbc-b12e-1eea0c3dd2af.png =267x498)
+  ![image](https://user-images.githubusercontent.com/83708369/137088524-5ffd656f-97eb-4bbc-b12e-1eea0c3dd2af.png=267x498)
   ![image](https://user-images.githubusercontent.com/83708369/137095470-8c38dc69-d7eb-4d3b-996a-016b74b946d9.png) = 267x498
 </p>
 
