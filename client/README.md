@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<h1 align="center">Best Reads</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created with [Create React App](https://github.com/facebook/create-react-app). It is based on the Amazon Good Reads application in style, using The Open Library API to create a Full Stack Application with features for logged-in users to search and review books; store books on shelves: want to read, reading and read; and finally create and read e-books using a built-in e-reader.
 
-## Available Scripts
+## Links
+
+- Repo: [Best Reads](https://github.com/Miki-Geoghegan/BestReads)
+- Heroku: [Best Reads](https://mm-best-reads.herokuapp.com/)
+- API: [Open Library API](https://openlibrary.org/developers/api)
+
+
+## Screenshots
+
+Mobile view:
+![image](https://user-images.githubusercontent.com/83708369/137088524-5ffd656f-97eb-4bbc-b12e-1eea0c3dd2af.png)
+
+Tablet view:
+![image](https://user-images.githubusercontent.com/83708369/137088616-7a10a4df-469d-40ae-895b-2ad473a62045.png)
+
+Web view:
+![image](https://user-images.githubusercontent.com/83708369/137088860-3f68024c-0604-44c6-bcd0-c77014fcdb1d.png)
+
+
+## Available Commands
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React, JavaScript ES6
+- Node.JS
+- Express
+- HTML
+- CSS
 
-### `yarn build`
+## Testing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Testing was done on all API calls with Postman
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Future Updates
 
-### `yarn eject`
+<p>Updates we are continuing to make include:</p>
+<ul>
+<li>Adding a "remove favourite button"</li>
+<li>Adding an image to favourites list, in addition to the title</li>
+<li>Adding a link to each title in the favourites list, leading to movie details</li>
+</ul>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Authors
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Miki Geoghegan**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Profile](https://github.com/Miki-Geoghegan)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Morgane Deschamps**
 
-## Learn More
+- [Profile](https://github.com/MorganeDeschamps)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for your time, questions and comments are always welcome :heart:!

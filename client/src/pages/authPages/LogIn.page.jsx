@@ -51,6 +51,7 @@ function LogIn(props) {
 			<div className="login-form-container">
 				<h1>Log In</h1>
 				<p className="account">No account? <Link to="/auth/signup" className="account">Sign Up</Link></p>
+				
 				<form onSubmit={handleSubmit} className="login-form">
 					<div className="inputs">
 						<label htmlFor='login-form-text'>Username</label>
