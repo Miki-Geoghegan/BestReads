@@ -1,65 +1,45 @@
-<h1 align="center">Best Reads</h1>
+# Best Reads
 
-This project is created with [Create React App](https://github.com/facebook/create-react-app). It is based on the Amazon Good Reads application in style, using The Open Library API to create a Full Stack Application with features for logged-in users to search and review books; store books on shelves: want to read, reading and read; and finally create and read e-books using a built-in e-reader.
+## Structure
 
-## Links
+This is a full-stack application, containing a server and client side. The former is built with Node.js and Express app to run the application, the latter with React.js.
 
-- Repo: [Best Reads](https://github.com/Miki-Geoghegan/BestReads)
-- Heroku: [Best Reads](https://mm-best-reads.herokuapp.com/)
-- API: [Open Library API](https://openlibrary.org/developers/api)
+The server contains auth routes, database configurations, middleware and cors in addition to models, public and private routes. The client folder contains functional authentication, components and images.
 
 
-## Screenshots
+## Steps to install and Deploy this repository
 
-Mobile view:
-![image](https://user-images.githubusercontent.com/83708369/137088524-5ffd656f-97eb-4bbc-b12e-1eea0c3dd2af.png)
+- 1 - Create your app in Heroku and copy the URL
 
-Tablet view:
-![image](https://user-images.githubusercontent.com/83708369/137088616-7a10a4df-469d-40ae-895b-2ad473a62045.png)
+- 2 - Fork & Clone this repo
 
-Web view:
-![image](https://user-images.githubusercontent.com/83708369/137088860-3f68024c-0604-44c6-bcd0-c77014fcdb1d.png)
+- 3 - Go to client subfolder and run npm install
 
+- 4 - Go to server subfolder and run npm install
 
-## Available Commands
+- 5 - In **server subfolder**, run the command git heroku add:remote -a <your app name> (you can also find this command in the heroku dashboard)
 
-In the project directory, you can run:
+- 6 - Go to .env file in the server folder and change MONGODB_URI, SESSION_SECRET and HEROKU_URL to your own custom strings
 
-### `npm start`
+- 7 - Go to the heroku dashboard and add **these 3 config vars** in the settings: 
+  - **MONGODB_URI** = like in .env
+  - **ORIGIN**:  << this has to be the heroku app name, not localhost >>
+  - **SESSION_SECRET** = like in .env
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 8 - Go to your server terminal, and git push heroku master
 
+- 9 - Your application should be running in Heroku correctly. If it doesn't, run on the terminal heroku logs --tail to see details of the error
 
-## Built With
+- 10 - Whenever you want to redeploy changes to your frontend, follow this steps:
 
-- React, JavaScript ES6
-- Node.JS
-- Express
-- HTML
-- CSS
+-- Delete the build folder in client
 
-## Testing
+-- Create a new one with `npm run build` with the terminal **in the client subfolder**
 
-Testing was done on all API calls with Postman
+-- Delete everything inside the public folder **in the server subfolder**
 
+-- Copy the content from the build folder inside of Client and paste it inside of public in Server. Don't copy the folder, just the content!
 
-## Future Updates
+-- git add . and git commit your changes on the server folder
 
-<p>Updates we are continuing to make include:</p>
-<ul>
-<li>Adding a "remove favourite button"</li>
-<li>Adding an image to favourites list, in addition to the title</li>
-<li>Adding a link to each title in the favourites list, leading to movie details</li>
-</ul>
-
-## Authors
-
-**Miki Geoghegan**
-
-- [Profile](https://github.com/Miki-Geoghegan)
-
-**Morgane Deschamps**
-
-- [Profile](https://github.com/MorganeDeschamps)
-
-Thank you for your time, questions and comments are always welcome :heart:!
+-- rerun git push heroku master
