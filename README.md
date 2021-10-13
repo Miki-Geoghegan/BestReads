@@ -13,6 +13,7 @@ This project is created with [Create React App](https://github.com/facebook/crea
 
 **Mobile view**
 <p float="left">
+
   ![image](https://user-images.githubusercontent.com/83708369/137088524-5ffd656f-97eb-4bbc-b12e-1eea0c3dd2af.png)
   ![image](https://user-images.githubusercontent.com/83708369/137093265-87e5199d-14d4-4c34-88e0-f43c1be20e36.png)
   ![image](https://user-images.githubusercontent.com/83708369/137093563-3fdb2544-f091-403a-85c1-dfb600e77b48.png)
