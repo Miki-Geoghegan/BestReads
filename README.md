@@ -12,9 +12,11 @@ This project is created with [Create React App](https://github.com/facebook/crea
 ## Screenshots
 
 Mobile view:
+<br>
 ![image](https://user-images.githubusercontent.com/83708369/137088524-5ffd656f-97eb-4bbc-b12e-1eea0c3dd2af.png)
 
 Tablet view:
+<br>
 ![image](https://user-images.githubusercontent.com/83708369/137088616-7a10a4df-469d-40ae-895b-2ad473a62045.png)
 
 Web view:
