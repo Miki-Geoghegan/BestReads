@@ -15,8 +15,13 @@ This project is created with [Create React App](https://github.com/facebook/crea
 <p float="left">
 
   ![image](https://user-images.githubusercontent.com/83708369/137088524-5ffd656f-97eb-4bbc-b12e-1eea0c3dd2af.png)
-  ![image](https://user-images.githubusercontent.com/83708369/137093265-87e5199d-14d4-4c34-88e0-f43c1be20e36.png)
-  ![image](https://user-images.githubusercontent.com/83708369/137093563-3fdb2544-f091-403a-85c1-dfb600e77b48.png)
+  ![image](https://user-images.githubusercontent.com/83708369/137095470-8c38dc69-d7eb-4d3b-996a-016b74b946d9.png)
+</p>
+
+**EBook upload options**
+<p align ="center">
+
+![image](https://user-images.githubusercontent.com/83708369/137096242-16d45086-0b6c-4982-9804-4d344609bd58.png)
 </p>
 
 
