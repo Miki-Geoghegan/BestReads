@@ -11,16 +11,12 @@ This project is created with [Create React App](https://github.com/facebook/crea
 
 ## Screenshots
 
-Mobile view:
-<br>
-![image](https://user-images.githubusercontent.com/83708369/137088524-5ffd656f-97eb-4bbc-b12e-1eea0c3dd2af.png)
-
-Tablet view:
-<br>
-![image](https://user-images.githubusercontent.com/83708369/137088616-7a10a4df-469d-40ae-895b-2ad473a62045.png)
-
-Web view:
-![image](https://user-images.githubusercontent.com/83708369/137088860-3f68024c-0604-44c6-bcd0-c77014fcdb1d.png)
+**Mobile view**
+<p float="left">
+  ![image](https://user-images.githubusercontent.com/83708369/137088524-5ffd656f-97eb-4bbc-b12e-1eea0c3dd2af.png)
+  ![image](https://user-images.githubusercontent.com/83708369/137093265-87e5199d-14d4-4c34-88e0-f43c1be20e36.png)
+  ![image](https://user-images.githubusercontent.com/83708369/137093563-3fdb2544-f091-403a-85c1-dfb600e77b48.png)
+</p>
 
 
 ## Available Commands
@@ -56,12 +52,8 @@ Testing was done on all API calls with Postman
 
 ## Authors
 
-**Miki Geoghegan**
+- [Miki Geoghegan](https://github.com/Miki-Geoghegan)
 
-- [Profile](https://github.com/Miki-Geoghegan)
-
-**Morgane Deschamps**
-
-- [Profile](https://github.com/MorganeDeschamps)
+- [Morgane Deschamps](https://github.com/MorganeDeschamps)
 
 Thank you for your time, questions and comments are always welcome :heart:!
